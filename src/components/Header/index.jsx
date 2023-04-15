@@ -34,7 +34,7 @@ export default function Header({ variant }) {
               <Div className="cs-main_header_left">
                 <Link className="cs-site_branding" to="/">
                   {/* <img src="/images/csefarewellB.png" alt="Logo" /> */}
-                  <img src="/images/CSE Farewell - Black.svg" alt="Logo" className="image" />
+                  <img src="/images/CSEFarewellBlack.svg" alt="Logo" className="image" />
                 </Link>
               </Div>
               <Div className="cs-main_header_center">

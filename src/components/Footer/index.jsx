@@ -49,7 +49,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
                 <Div className="cs-footer_item image">
                   <TextWidget
                     // logoSrc='/images/csefarewellB.png' 
-                    logoSrc='/images/CSE Farewell - Black.svg' 
+                    logoSrc='/images/CSEFarewellBlack.svg' 
                     logoAlt='Logo'
                     // text ='Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.'
                   />
