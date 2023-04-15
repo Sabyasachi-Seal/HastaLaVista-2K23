@@ -3,17 +3,17 @@
   "name": "Annual Farewell of CSE - TMSL",
   "icons": [
     {
-      "src": "images/csefarewellB.png",
+      "src": "images/CSEFarewellBlack.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "images/csefarewellB.png",
+      "src": "images/CSEFarewellBlack.svg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/csefarewellB.png",
+      "src": "images/CSEFarewellBlack.svg",
       "type": "image/png",
       "sizes": "512x512"
     }

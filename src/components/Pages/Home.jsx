@@ -194,6 +194,7 @@ export default function Home() {
         <Spacing lg="70" md="70" />
         <VideoModal
           videoSrc="https://www.youtube.com/watch?v=275EpmAOtEE"
+          // bgUrl="/images/CSE Farewell - Black.svg"
           bgUrl="/images/csefarewellB.png"
         />
       </Div>
