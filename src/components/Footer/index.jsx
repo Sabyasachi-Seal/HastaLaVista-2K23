@@ -23,19 +23,19 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
   const quickLinks = [
     {
       title: 'Home',
-      href: '/service/service-details'
+      href: '/'
     },
     {
       title: 'About Us',
-      href: '/service/service-details'
+      href: '/about'
     },
     {
       title: 'Out Team',
-      href: '/service/service-details'
+      href: '/team'
     },
     {
       title: 'Contact US',
-      href: '/service/service-details'
+      href: '/contact'
     },
   ]
 
