@@ -45,28 +45,29 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
         <Div className="container">
           <Div className="seal1">
             <Div className="seal">
-              <Div className="col-lg-3 col-sm-9">
-                <Div className="cs-footer_item">
-                  <TextWidget 
-                    logoSrc='/images/csefarewellB.png' 
+              <Div className="col-lg-3 col-sm-9 foot">
+                <Div className="cs-footer_item image">
+                  <TextWidget
+                    // logoSrc='/images/csefarewellB.png' 
+                    logoSrc='/images/CSE Farewell - Black.svg' 
                     logoAlt='Logo'
                     // text ='Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.'
                   />
                 </Div>
               </Div>
-              <Div className="col-lg-2 col-sm-6">
+              <Div className="col-lg-2 col-sm-6 foot">
                 <Div className="cs-footer_item subs">
                   <MenuWidget menuItems={quickLinks} menuHeading='Quick Links'/>
                 </Div>
               </Div>
-              <Div className="col-lg-3 col-sm-6">
+              <Div className="col-lg-3 col-sm-6 foot">
                 <Div className="cs-footer_item subs">
                   <ContactInfoWidget title='Contact Us'/>
                   <Spacing lg="35" md="25" />
                   <SocialWidget/>
                 </Div>
               </Div>
-              <Div className="col-lg-3 col-sm-6">
+              <Div className="col-lg-4 col-sm-6 foot">
                 <Div className="cs-footer_item subs">
                   <Newsletter 
                     title='Subscribe' 
