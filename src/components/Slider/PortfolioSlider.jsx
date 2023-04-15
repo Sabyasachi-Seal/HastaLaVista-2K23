@@ -14,19 +14,19 @@ export default function PortfolioSlider() {
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/portfolio/',
+      href:'/portfolio',
       src:'/images/portfolio_2.jpeg'
     },
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
+      href:'/portfolio',
       src:'/images/portfolio_0.jpg'
     },
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
+      href:'/portfolio',
       src:'/images/portfolio_3.jpeg'
     }
   ]
