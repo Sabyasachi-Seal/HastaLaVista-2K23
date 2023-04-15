@@ -5,11 +5,30 @@
 
 .cs-footer_item {
   margin-bottom: 40px;
-  .cs-newsletter.cs-style1 {
-    margin-top: 6px;
-  }
+  margin-right: 40px;
+  // .cs-newsletter.cs-style1 {
+  //   // margin-top: 6px;
+
+  // }
 }
 
+// .quickLinks{
+//   margin-right:0px;
+// }
+.seal1{
+  display: flex;
+  // padding-right: 0px;
+}
+.subs{
+  margin-left: 7%;
+}
+.seal{
+  // padding-right: 0px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  place-content: center;
+}
 .cs-widget_title {
   font-size: 18px;
   margin-bottom: 35px;
