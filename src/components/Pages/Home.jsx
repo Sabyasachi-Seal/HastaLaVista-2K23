@@ -22,12 +22,12 @@ export default function Home() {
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Behance',
-      links: '/',
+      name: 'Facebook',
+      links: 'https://www.facebook.com/HastaLaVista.cse.tmsl?mibextid=ZbWKwL',
     },
     {
-      name: 'Twitter',
-      links: '/',
+      name: 'Instagram',
+      links: 'https://instagram.com/hasta_la_vista.cse?igshid=YmMyMTA2M2Y',
     },
   ];
 
@@ -59,10 +59,10 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Creativity In <br/>Our Blood Line"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
-        btnText="Get a Quote"
-        btnLink="/contact"
+        title="Hasta <br/>La Vista"
+        subtitle="Welcome to Hasta La Vista, the annual farewell for the Department of Computer Science and Engineering."
+        btnText="Know More about us"
+        btnLink="/about"
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
@@ -74,7 +74,7 @@ export default function Home() {
       <div className="container">
         <FunFact
           variant="cs-type1"
-          title="Our fun fact"
+          title="Team CSE"
           subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
           data={funfaceData}
         />
@@ -82,6 +82,8 @@ export default function Home() {
       {/* End FunFact Section */}
 
       {/* Start Service Section */}
+      <Spacing lg="150" md="80" />
+      <MovingText text="Welcome to Hasta La Vista 2K23" />
       <Spacing lg="150" md="80" />
       <Div id="service">
         <Div className="container">
@@ -187,8 +189,7 @@ export default function Home() {
       <Spacing lg="130" md="70" />
       <Div className="container">
         <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Our agile process is ability to adapt and respond to change. Agile
-          organizations view change as an opportunity, not a threat.
+          Check out our teaser video for Hasta La Vista 2023 below to get a taste of what to expect!
         </h2>
         <Spacing lg="70" md="70" />
         <VideoModal
@@ -256,11 +257,14 @@ export default function Home() {
       {/* End LogoList Section */}
 
       {/* Start CTA Section */}
+      <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
-          btnLink="/contact"
+          title="Wanna be a part of Hasta La <br />Vista 2K23?"
+          btnText="Register for Event"
+          btnLink="https://lu.ma/event/evt-xNs3p4DfZd56WHG"
+          data-luma-action="checkout"
+          data-luma-event-id="evt-xNs3p4DfZd56WHG"
           bgSrc="/images/cta_bg.jpeg"
         />
       </Div>

@@ -7,16 +7,12 @@ export default function ContactInfoWidget({withIcon, title}) {
       {title && <h2 className="cs-widget_title">{title}</h2>}
       <ul className="cs-menu_widget cs-style1 cs-mp0">
         <li>
-          {withIcon?<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>:''}
-          +44 454 7800 112
-        </li>
-        <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>:''}
-          infotech@arino.com
+          ti.cseunited@gmail.com
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>:''}
-          50 Wall Street Suite, 44150 <br/>Ohio, United States
+          EM-4/1, Sector V, Bidhannagar <br/>Kolkata, West Bengal 700091
         </li>
       </ul>
     </>
