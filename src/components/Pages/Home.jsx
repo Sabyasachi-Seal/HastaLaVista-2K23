@@ -60,7 +60,7 @@ export default function Home() {
       {/* Start Hero Section */}
       <Hero
         title="Hasta <br/>La Vista"
-        subtitle="Welcome to Hasta La Vista, the annual farewell for the Department of Computer Science and Engineering."
+        subtitle="Time to bid farewell to our departing seniors with one last hurrah! Let's party like there's no tomorrow and create some unforgettable memories before they head off to their next adventure!"
         btnText="Know More about us"
         btnLink="/about"
         scrollDownId="#service"
