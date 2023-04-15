@@ -6,6 +6,7 @@ import Newsletter from '../Widget/Newsletter'
 import SocialWidget from '../Widget/SocialWidget'
 import TextWidget from '../Widget/TextWidget'
 import './footer.scss'
+import Spacing from '../Spacing';
 
 export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
   const copyrightLinks = [
@@ -19,22 +20,22 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
     }
   ]
   
-  const serviceMenu = [
+  const quickLinks = [
     {
-      title: 'UI/UX design',
-      href: '/service/service-details'
+      title: 'Home',
+      href: '/'
     },
     {
-      title: 'WP development',
-      href: '/service/service-details'
+      title: 'About Us',
+      href: '/about'
     },
     {
-      title: 'Digital marketing',
-      href: '/service/service-details'
+      title: 'Out Team',
+      href: '/team'
     },
     {
-      title: 'React development',
-      href: '/service/service-details'
+      title: 'Contact US',
+      href: '/contact'
     },
   ]
 
@@ -46,21 +47,22 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget 
-                  logoSrc='/images/footer_logo.svg' 
+                  logoSrc='/images/csefarewellB.png' 
                   logoAlt='Logo'
-                  text ='Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.'
+                  // text ='Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.'
                 />
-                <SocialWidget/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading='Services'/>
+                <MenuWidget menuItems={quickLinks} menuHeading='What else we do ?'/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <ContactInfoWidget title='Contact Us'/>
+                <Spacing lg="35" md="25" />
+                <SocialWidget/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
@@ -78,7 +80,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
       <Div className="container">
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
-            <Div className="cs-copyright">Copyright © 2022 Laralink.</Div>
+            <Div className="cs-copyright">Copyright © 2023 Tech Team @ Hasta-La-Vista.</Div>
           </Div>
           <Div className="cs-bottom_footer_right">
             <MenuWidget menuItems={copyrightLinks} variant=' cs-style2'/>
