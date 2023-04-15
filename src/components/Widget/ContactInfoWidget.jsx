@@ -8,7 +8,7 @@ export default function ContactInfoWidget({withIcon, title}) {
       <ul className="cs-menu_widget cs-style1 cs-mp0">
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>:''}
-          ti.cseunited@gmail.com
+          hastalavista.cse.tmsl@gmail.com
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>:''}

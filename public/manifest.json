@@ -1,19 +1,19 @@
 {
-  "short_name": "Arino",
-  "name": "Creative Agency React Template",
+  "short_name": "Hasta-La-Vista",
+  "name": "Annual Farewell of CSE - TMSL",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "images/csefarewellB.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "images/csefarewellB.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "images/csefarewellB.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -34,20 +34,20 @@ export default function Home() {
   // FunFact Data
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
-    },
-    {
-      title: 'Project Completed',
-      factNumber: '50K',
+      title: 'Students',
+      factNumber: '300',
     },
     {
       title: 'Team Members',
-      factNumber: '245',
+      factNumber: '50',
     },
     {
-      title: 'Digital products',
-      factNumber: '550',
+      title: 'Departments',
+      factNumber: '3',
+    },
+    {
+      title: 'Event',
+      factNumber: '1',
     },
   ];
 
@@ -74,7 +74,7 @@ export default function Home() {
       <div className="container">
         <FunFact
           variant="cs-type1"
-          title="Team CSE"
+          title="About Team CSE"
           subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
           data={funfaceData}
         />
@@ -193,8 +193,8 @@ export default function Home() {
         </h2>
         <Spacing lg="70" md="70" />
         <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-          bgUrl="/images/video_bg.jpeg"
+          videoSrc="https://www.youtube.com/watch?v=275EpmAOtEE"
+          bgUrl="/images/csefarewellB.png"
         />
       </Div>
       {/* End Video Block Section */}
