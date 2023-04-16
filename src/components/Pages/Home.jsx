@@ -248,7 +248,7 @@ export default function Home() {
 
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
-      <MovingText text="1234567890123456789" />
+      <MovingText text="Some of our past sponsors" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 

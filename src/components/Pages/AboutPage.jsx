@@ -48,7 +48,7 @@ export default function AboutPage() {
         <Div className="row">
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
-              title="What are we reallly about?"
+              title="What are we really about?"
               subtitle="About Hasta La Vista"
             >
               <Spacing lg="30" md="20" />
