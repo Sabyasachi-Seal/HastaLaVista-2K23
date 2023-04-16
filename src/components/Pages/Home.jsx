@@ -75,17 +75,20 @@ export default function Home() {
         <FunFact
           variant="cs-type1"
           title="About Team CSE"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          subtitle="Successfully organizing and running a college event requires a dedicated team. Behind the scenes, multiple teams work tirelessly to make sure everything runs smoothly. Our team CSE is no exception. It consists of the following teams.
+          Technical Team, Graphics Team, Cultural Team, PR Team, Sponsorship Team, Finance Team, Decoration Team, Food Management Team, Field Service Team, Photography Team, Event Management Team. All teams come together and work hand in hand to make your event a success."
           data={funfaceData}
         />
       </div>
       {/* End FunFact Section */}
 
-      {/* Start Service Section */}
+      
       <Spacing lg="150" md="80" />
       <MovingText text="Welcome to Hasta La Vista 2K23" />
       <Spacing lg="150" md="80" />
-      <Div id="service">
+      
+      {/* Start Service Section */}
+      {/* <Div id="service">
         <Div className="container">
           <Div className="row">
             <Div className="col-xl-4">
@@ -143,7 +146,7 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Service Section */}
 
       {/* Start Portfolio Section */}
@@ -171,8 +174,8 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="We get multiple awards"
-                subtitle="Our Awards"
+                title="What can you expect?"
+                subtitle="Fun in our D.N.A"
                 variant="cs-style1"
               />
               <Spacing lg="90" md="45" />
@@ -194,7 +197,6 @@ export default function Home() {
         <Spacing lg="70" md="70" />
         <VideoModal
           videoSrc="https://www.youtube.com/watch?v=275EpmAOtEE"
-          // bgUrl="/images/CSE Farewell - Black.svg"
           bgUrl="/images/csefarewellB.png"
         />
       </Div>
