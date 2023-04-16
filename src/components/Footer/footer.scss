@@ -43,6 +43,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  // word-wrap: break-word;
   li {
     display: flex;
     span {
@@ -201,12 +202,94 @@
   padding: 60px 0 15px;
 }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .cs-bottom_footer {
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
+
+  .seal{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    // justify-content: center;
+  }
+
+  .cs-social_btns{
+    justify-content: center;
+  }
+  .foot{
+    text-align: center;
+  }
+  .foot{
+    // margin: auto;
+    // text-align: start;
+  }
+  
+  li{
+    text-align: center;
+    justify-content: center;
+  }
 }
-@media screen and (max-width: 767px) {}
+// @media screen and (max-width: 767px) {
+
+// }
+
+@media screen and (max-width: 800px) {
+  .image{
+    display: none;
+  }
+  .quickLink{
+    width: 100%;
+    text-align: center;
+  }
+
+  .cs-social_btns{
+    justify-content: center;
+  }
+  .foot{
+    text-align: center;
+  }
+  .seal{
+    justify-content: start;
+  }
+  li{
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+@media screen and (min-width:574px){
+  .foot{
+    margin: auto;
+  }
+}
+
+@media screen and (min-width:574px){
+ 
+  .foot{
+    margin-top: 0%;
+  }
+}
+@media screen and (min-width:1000px){
+  .cs-social_btns{
+    width: 150%;
+  }
+}
+
+.cs-mp0{
+  overflow-x: auto;
+}
