@@ -35,7 +35,7 @@ export default function Home() {
   const funfaceData = [
     {
       title: 'Students',
-      factNumber: '300',
+      factNumber: '600',
     },
     {
       title: 'Team Members',
@@ -151,8 +151,8 @@ export default function Home() {
       <Div>
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
+            title="Some of our Past Glimpses"
+            subtitle="Gallery"
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
