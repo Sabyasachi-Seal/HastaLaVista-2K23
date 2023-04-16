@@ -1,32 +1,32 @@
-import React, { useEffect } from 'react';
-import { pageTitle } from '../../helper';
-import Cta from '../Cta';
-import FunFact from '../FunFact';
-import PageHeading from '../PageHeading';
-import Div from '../Div';
-import SectionHeading from '../SectionHeading';
-import TeamSlider from '../Slider/TeamSlider';
-import Spacing from '../Spacing';
+import React, { useEffect } from "react";
+import { pageTitle } from "../../helper";
+import Cta from "../Cta";
+import FunFact from "../FunFact";
+import PageHeading from "../PageHeading";
+import Div from "../Div";
+import SectionHeading from "../SectionHeading";
+import TeamSlider from "../Slider/TeamSlider";
+import Spacing from "../Spacing";
 
 export default function AboutPage() {
-  pageTitle('About');
+  pageTitle("About");
 
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
-    },
-    {
-      title: 'Project Completed',
-      factNumber: '50K',
+      title: 'Students',
+      factNumber: '600',
     },
     {
       title: 'Team Members',
-      factNumber: '245',
+      factNumber: '50',
     },
     {
-      title: 'Digital products',
-      factNumber: '550',
+      title: 'Departments',
+      factNumber: '3',
+    },
+    {
+      title: 'Event',
+      factNumber: '1',
     },
   ];
   useEffect(() => {
@@ -48,41 +48,44 @@ export default function AboutPage() {
         <Div className="row">
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
-              title="Your trusted partner for business"
-              subtitle="About Our Agency"
+              title="What are we reallly about?"
+              subtitle="About Hasta La Vista"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+                Hasta La Vista is the grand farewell party organized by the
+                students of the CSE, CSBS, and DCST departments of Techno Main
+                Salt Lake to bid adieu to their esteemed seniors. It's a
+                much-awaited event that marks the culmination of their time
+                together as a close-knit community. With the theme "Hasta La
+                Vista," which means "Until We Meet Again" in Spanish, the event
+                promises to be a memorable one filled with laughter, tears, and
+                fond memories.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="40" />
             </SectionHeading>
           </Div>
-          <Div className="col-lg-5 offset-xl-2">
+          <Div className="col-lg-6 offset-xl-1">
             <img
-              src="/images/about_img_1.jpeg"
+              src="/images/about4.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-7">
+          <Div className="col-lg-6">
             <img
-              src="/images/about_img_2.jpeg"
+              src="/images/about2.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />
-            <Spacing lg="25" md="25" />
+            <Spacing lg="5" md="5" />
           </Div>
-          <Div className="col-lg-5">
+          <Div className="col-lg-6">
             <img
-              src="/images/about_img_3.jpeg"
+              src="/images/about1.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />
@@ -96,8 +99,9 @@ export default function AboutPage() {
       {/* Start Fun Fact Section */}
       <Div className="container">
         <FunFact
-          title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          title="About Team CSE"
+          subtitle="Successfully organizing and running a college event requires a dedicated team. Behind the scenes, multiple teams work tirelessly to make sure everything runs smoothly. Our team CSE is no exception. It consists of the following teams.
+          Technical Team, Graphics Team, Cultural Team, PR Team, Sponsorship Team, Finance Team, Decoration Team, Food Management Team, Field Service Team, Photography Team, Event Management Team. All teams come together and work hand in hand to make your event a success."
           data={funfaceData}
         />
       </Div>
@@ -111,7 +115,7 @@ export default function AboutPage() {
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/about_img_4.jpeg"
+                  src="/images/about3.jpg"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -121,23 +125,23 @@ export default function AboutPage() {
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
             <SectionHeading
-              title="Highly experienced pepole with us"
-              subtitle="Why Choose Us"
+              title="See you again!"
+              subtitle="It's been a long day, without you my friend"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+                From electrifying performances to heartfelt speeches, here we
+                will showcase the excitement, emotions, and anticipation that
+                surround this event. It's time for the juniors to express their
+                gratitude, admiration, and best wishes to the seniors as they
+                embark upon a new chapter in their lives.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
+                Hasta La Vista is not just a party; it's a celebration of the
+                cherished bonds and everlasting friendships that have been
+                formed and nurtured during their time at TMSL, and a tribute to
+                the seniors who have left an indelible mark on their alma mater.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
