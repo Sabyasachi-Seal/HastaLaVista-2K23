@@ -9,11 +9,11 @@ export default function TimelineSlider() {
     [
       {
         year: 'Music',
-        name: 'Feel the rhythm',
+        name: 'Feel the Rhythm',
       },
       {
         year: 'Dancing',
-        name: 'Get your groove on',
+        name: 'Get Your Groove On',
       },
     ],
     [

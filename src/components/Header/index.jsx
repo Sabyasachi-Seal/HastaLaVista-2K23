@@ -67,12 +67,15 @@ export default function Header({ variant }) {
                       <DropDown>
                         <ul>
                           <li>
-                            <Link
+                            <a href="https://cseunited.com/" onClick={() => setMobileToggle(false)}>
+                              CSE United
+                            </a>
+                            {/* <Link
                               to="https://cseunited.com/"
                               onClick={() => setMobileToggle(false)}
                             >
                               CSE United
-                            </Link>
+                            </Link> */}
                           </li>
                         </ul>
                       </DropDown>
