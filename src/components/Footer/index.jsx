@@ -45,7 +45,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
         <Div className="container">
           <Div className="seal1">
             <Div className="seal">
-              <Div className="col-lg-3 col-sm-9 foot">
+              <Div className="col-lg-3 col-sm-9 foot image">
                 <Div className="cs-footer_item image">
                   <TextWidget
                     // logoSrc='/images/csefarewellB.png' 
@@ -55,13 +55,13 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
                   />
                 </Div>
               </Div>
-              <Div className="col-lg-2 col-sm-6 foot">
+              <Div className="col-lg-2 col-sm-6 foot quickLink">
                 <Div className="cs-footer_item subs">
                   <MenuWidget menuItems={quickLinks} menuHeading='Quick Links'/>
                 </Div>
               </Div>
               <Div className="col-lg-3 col-sm-6 foot">
-                <Div className="cs-footer_item subs">
+                <Div className="cs-footer_item subs contact">
                   <ContactInfoWidget title='Contact Us'/>
                   <Spacing lg="35" md="25" />
                   <SocialWidget/>
