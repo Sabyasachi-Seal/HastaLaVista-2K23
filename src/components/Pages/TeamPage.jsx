@@ -267,9 +267,11 @@ export default function TeamPage() {
         <Spacing lg="70" md="50" />
         <Div className="container">
           <Cta
-            title="Let’s disscuse make <br />something <i>cool</i> together"
-            btnText="Apply For Meeting"
-            btnLink="/contact"
+            title="Wanna be a part of Hasta La <br />Vista 2K23?"
+            btnText="Register for Event"
+            btnLink="https://lu.ma/event/evt-xNs3p4DfZd56WHG"
+            data-luma-action="checkout"
+            data-luma-event-id="evt-xNs3p4DfZd56WHG"
             bgSrc="/images/cta_bg.jpeg"
           />
         </Div>

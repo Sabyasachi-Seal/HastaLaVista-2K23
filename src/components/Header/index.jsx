@@ -5,7 +5,6 @@ import './header.scss';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import Div from '../Div';
 import DropDown from './DropDown';
-// import YourSvg from "/images/CSE Farewell - Black.svg";
 
 export default function Header({ variant }) {
   const [isSticky, setIsSticky] = useState(false);
@@ -56,30 +55,10 @@ export default function Header({ variant }) {
                         What is Hasta La Vista?
                       </NavLink>
                     </li>
-                    <li className="menu-item-has-children">
-                      <NavLink to="blog" onClick={() => setMobileToggle(false)}>
+                    <li className="menu-item">
+                      <NavLink to="/team" onClick={() => setMobileToggle(false)}>
                         Our Team
                       </NavLink>
-                      <DropDown>
-                        <ul>
-                          <li>
-                            <Link
-                              to="/team"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Teachers
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/team/team-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Students
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown>
                     </li>
                     <li className="menu-item-has-children">
                       <Link to="/" onClick={() => setMobileToggle(false)}>
