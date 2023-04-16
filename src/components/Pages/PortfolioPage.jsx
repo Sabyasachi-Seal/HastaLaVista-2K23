@@ -1,10 +1,9 @@
 import { Icon } from '@iconify/react';
-import React, { useEffect } from 'react';
-import { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { pageTitle } from '../../helper';
 import Cta from '../Cta';
 import PageHeading from '../PageHeading';
-import Portfolio from '../Portfolio';
+import Portfolio4 from '../Portfolio/Portfolio4';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
@@ -232,9 +231,9 @@ export default function PortfolioPage() {
               }`}
               key={index}
             >
-              <Portfolio
-                title={item.title}
-                subtitle={item.subtitle}
+              <Portfolio4
+                title=""
+                subtitle=""
                 // href={item.href}
                 src={item.src}
                 variant="cs-style1 cs-type1"

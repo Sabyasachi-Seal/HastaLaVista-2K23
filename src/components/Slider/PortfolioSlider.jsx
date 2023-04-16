@@ -9,25 +9,25 @@ export default function PortfolioSlider() {
       title:'Click to see more',
       subtitle:'Gallery',
       href:'/portfolio',
-      src:'/images/portfolio (2).JPG'
+      src:'/images/portfolio(2).jpg'
     },
     {
       title:'Click to see more',
       subtitle:'Gallery',
       href:'/portfolio',
-      src:'/images/portfolio (3).JPG'
+      src:'/images/portfolio(3).jpg'
     },
     {
       title:'Click to see more',
       subtitle:'Gallery',
       href:'/portfolio',
-      src:'/images/portfolio (4).JPG'
+      src:'/images/portfolio(4).jpg'
     },
     {
       title:'Click to see more',
       subtitle:'Gallery',
       href:'/portfolio',
-      src:'/images/portfolio (5).JPG'
+      src:'/images/portfolio(5).jpg'
     }
   ]
   
