@@ -45,7 +45,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
         <Div className="container">
           <Div className="seal1">
             <Div className="seal">
-              <Div className="col-lg-3 col-sm-9 foot image">
+              <Div className="col-lg-3 col-sm-9 foot_image">
                 <Div className="cs-footer_item image">
                   <TextWidget
                     // logoSrc='/images/csefarewellB.png' 

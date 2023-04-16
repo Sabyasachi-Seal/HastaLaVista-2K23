@@ -85,7 +85,7 @@ export default function Home() {
       
       <Spacing lg="150" md="80" />
       <MovingText text="Welcome to Hasta La Vista 2K23" />
-      <Spacing lg="150" md="80" />
+      <Spacing lg="20" md="10" />
       
       {/* Start Service Section */}
       {/* <Div id="service">
@@ -213,16 +213,16 @@ export default function Home() {
         <Spacing lg="85" md="45" />
         <TeamSlider />
       </Div>
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" /> */}
       {/* End Team Section */}
 
       {/* Start Testimonial Section */}
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
       {/* End Testimonial Section */}
 
       {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_4">
+      {/* <Spacing lg="150" md="80" /> */}
+      {/* <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
         <Div className="container">
@@ -243,12 +243,12 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Blog Section */}
 
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
-      <MovingText text="Our reputed world wide partners" />
+      <MovingText text="1234567890123456789" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 

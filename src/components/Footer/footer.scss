@@ -17,7 +17,7 @@
 // }
 .seal1{
   display: flex;
-  // padding-right: 0px;
+  padding-right: 0px;
   place-content: center;
 }
 .subs{
@@ -28,7 +28,7 @@
   margin-right: 2%;
 }
 .seal{
-  // padding-right: 0px;
+  padding-right: 0px;
   display: flex;
   flex-direction: row;
   width: auto;
@@ -237,6 +237,9 @@
 // @media screen and (max-width: 767px) {
 
 // }
+.foot_image{
+  margin-right: 5%;
+}
 
 @media screen and (max-width: 800px) {
   .image{
