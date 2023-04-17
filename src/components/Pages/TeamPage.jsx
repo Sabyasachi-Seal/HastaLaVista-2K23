@@ -152,19 +152,6 @@ export default function TeamPage() {
       },
     },
     
-    
-    // {
-    //   memberImage: "/images/profilepics/prinansil.jpg",
-    //   memberName: "Melon Bulgery",
-    //   memberDesignation: "Product Designer",
-    //   memberSocial: {
-    //     linkedin: "https://www.linkedin.com/in/prinan-sil-587811206/",
-    //     twitter: "https://twitter.com/PrinanS",
-    //     insta: "https://www.instagram.com/lone_wolf_2002/",
-    //     facebook: "https://www.facebook.com/profile.php?id=100090921676885",
-    //   },
-    // },
-    
     {
       memberImage: "/images/profilepics/shubhadeepsaha.jpg",
       memberName: "Shubhadeep Saha",

@@ -120,7 +120,7 @@ export default function PortfolioPage() {
       <PageHeading
         title="Gallery"
         bgSrc="images/portfolio_hero_bg.jpeg"
-        pageLinkText="Portfolio"
+        pageLinkText="Gallery"
       />
       <Spacing lg="145" md="80" />
       <Div className="container">

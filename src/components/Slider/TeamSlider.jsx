@@ -1,13 +1,12 @@
-import { Icon } from '@iconify/react';
-import React from 'react';
-import Slider from 'react-slick';
-import Div from '../Div';
-import Team from '../Team';
+import { Icon } from "@iconify/react";
+import React from "react";
+import Slider from "react-slick";
+import Div from "../Div";
+import Team from "../Team";
 
 export default function TeamSlider() {
   /** Team Member Data **/
   const teamData = [
-  
     {
       memberImage: "/images/profilepics/aishwaryasaha.jpg",
       memberName: "Aishwarya Saha",
@@ -110,7 +109,7 @@ export default function TeamSlider() {
         facebook: "https://m.facebook.com/sayan.paul.73113",
       },
     },
-    
+
     {
       memberImage: "/images/profilepics/meghadrikoley.jpg",
       memberName: "Meghadri Koley",
@@ -123,8 +122,7 @@ export default function TeamSlider() {
         facebook: "https://www.facebook.com/dibyendu.koley.106?mibextid=ZbWKwL",
       },
     },
-  
-    
+
     {
       memberImage: "/images/profilepics/aryakbhattacharya.jpg",
       memberName: "Aryak Bhattacharya",
@@ -136,7 +134,7 @@ export default function TeamSlider() {
         facebook: "https://www.facebook.com/Aryakbhattacharya",
       },
     },
-    
+
     {
       memberImage: "/images/profilepics/soumilibhattacharya.jpeg",
       memberName: "Soumili Bhattacharya",
@@ -148,8 +146,7 @@ export default function TeamSlider() {
         facebook: "",
       },
     },
-    
-    
+
     // {
     //   memberImage: "/images/profilepics/prinansil.jpg",
     //   memberName: "Melon Bulgery",
@@ -161,7 +158,7 @@ export default function TeamSlider() {
     //     facebook: "https://www.facebook.com/profile.php?id=100090921676885",
     //   },
     // },
-    
+
     {
       memberImage: "/images/profilepics/shubhadeepsaha.jpg",
       memberName: "Shubhadeep Saha",
@@ -198,9 +195,7 @@ export default function TeamSlider() {
           "https://www.facebook.com/swabarna.banerjee.566?mibextid=ZbWKwL",
       },
     },
-    
-    
-    
+
     {
       memberImage: "/images/profilepics/sohampatra.jpg",
       memberName: "Soham Patra",
@@ -248,7 +243,6 @@ export default function TeamSlider() {
           "https://www.facebook.com/profile.php?id=100069094217343&mibextid=ZbWKwL",
       },
     },
-    
   ];
 
   /** Slider Settings **/
@@ -256,7 +250,7 @@ export default function TeamSlider() {
     <div
       {...props}
       className={
-        'slick-prev slick-arrow' + (currentSlide === 0 ? ' slick-disabled' : '')
+        "slick-prev slick-arrow" + (currentSlide === 0 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === 0 ? true : false}
@@ -268,8 +262,8 @@ export default function TeamSlider() {
     <div
       {...props}
       className={
-        'slick-next slick-arrow' +
-        (currentSlide === slideCount - 1 ? ' slick-disabled' : '')
+        "slick-next slick-arrow" +
+        (currentSlide === slideCount - 1 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === slideCount - 1 ? true : false}
@@ -280,9 +274,9 @@ export default function TeamSlider() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 200,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
     prevArrow: <SlickArrowLeft />,
     nextArrow: <SlickArrowRight />,
     responsive: [

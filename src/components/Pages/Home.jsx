@@ -63,7 +63,7 @@ export default function Home() {
         subtitle="Time to bid farewell to our departing seniors with one last hurrah! Let's party like there's no tomorrow and create some unforgettable memories before they head off to their next adventure!"
         btnText="Know More about us"
         btnLink="/about"
-        scrollDownId="#service"
+        scrollDownId="#gallery"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
         bgImageUrl="/images/hero_bg.jpeg"
@@ -151,7 +151,7 @@ export default function Home() {
 
       {/* Start Portfolio Section */}
       <Spacing lg="150" md="50" />
-      <Div>
+      <Div id="gallery">
         <Div className="container">
           <SectionHeading
             title="Some of our Past Glimpses"

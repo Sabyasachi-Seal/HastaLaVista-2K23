@@ -13,31 +13,31 @@ export default function Team({memberImage, memberName, memberDesignation, member
         </Div>
         <Div className="cs-member_info">
           <Div className="outer">
-          <h2 className="cs-member_name"><Link to="/team/team-details">{memberName}</Link></h2>
+          <h2 className="cs-member_name"><Link to="/team">{memberName}</Link></h2>
           <Div className="cs-member_designation">{memberDesignation}</Div>
 
           </Div>
         </Div>
         <Div className="cs-member_social cs-primary_color">
           {memberSocial.linkedin && (
-            <Link to={memberSocial.linkedin}>
+            <a href={memberSocial.linkedin}>
               <Icon icon="fa6-brands:linkedin-in" />                   
-            </Link>
+            </a>
           )}
           {memberSocial.twitter && (
-            <Link to={memberSocial.twitter}>
+            <a href={memberSocial.twitter}>
               <Icon icon="fa-brands:twitter" />                                        
-            </Link>
+            </a>
           )}
           {memberSocial.insta && (
-            <Link to={memberSocial.instagram}>
+            <a href={memberSocial.insta}>
               <Icon icon="fa-brands:instagram" />                     
-            </Link>
+            </a>
           )}
           {memberSocial.facebook && (
-            <Link to={memberSocial.facebook}>
+            <a href={memberSocial.facebook}>
               <Icon icon="fa-brands:facebook-f" />                    
-            </Link>
+            </a>
           )}
         </Div>
       </Div>
