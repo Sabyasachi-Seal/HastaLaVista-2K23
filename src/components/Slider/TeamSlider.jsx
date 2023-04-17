@@ -158,7 +158,18 @@ export default function TeamSlider() {
     //     facebook: "https://www.facebook.com/profile.php?id=100090921676885",
     //   },
     // },
-
+    {
+      memberImage: "/images/profilepics/parijatsaha.jpg",
+      memberName: "Parijat Saha",
+      memberDesignation: "Sponsor Head",
+      memberSocial: {
+        linkedin: "https://www.linkedin.com/in/parijatsaha",
+        twitter: "",
+        insta: "https://instagram.com/parijatsaha?igshid=ZDdkNTZiNTM=",
+        facebook:
+          "https://www.facebook.com/profile.php?id=100069094217343&mibextid=ZbWKwL",
+      },
+    },
     {
       memberImage: "/images/profilepics/shubhadeepsaha.jpg",
       memberName: "Shubhadeep Saha",
@@ -232,17 +243,17 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: "/images/profilepics/parijatsaha.jpg",
-      memberName: "Parijat Saha",
-      memberDesignation: "Sponsor Head",
+      memberImage: "",
+      memberName: "",
+      memberDesignation: "",
       memberSocial: {
-        linkedin: "https://www.linkedin.com/in/parijatsaha",
+        linkedin: "",
         twitter: "",
-        insta: "https://instagram.com/parijatsaha?igshid=ZDdkNTZiNTM=",
+        insta: "",
         facebook:
-          "https://www.facebook.com/profile.php?id=100069094217343&mibextid=ZbWKwL",
+          "",
       },
-    },
+    }
   ];
 
   /** Slider Settings **/
