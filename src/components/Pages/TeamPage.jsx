@@ -103,6 +103,17 @@ export default function TeamPage() {
       },
     },
     {
+      memberImage: "/images/profilepics/soumilibhattacharya.jpg",
+      memberName: "Soumili Bhattacharya",
+      memberDesignation: "Cultural Head",
+      memberSocial: {
+        linkedin: "",
+        twitter: "",
+        insta: "",
+        facebook: "",
+      },
+    },
+    {
       memberImage: "/images/profilepics/sayanpaul.jpg",
       memberName: "Sayan Paul",
       memberDesignation: "Graphics Head",
@@ -140,17 +151,7 @@ export default function TeamPage() {
       },
     },
     
-    {
-      memberImage: "/images/profilepics/soumilibhattacharya.jpeg",
-      memberName: "Soumili Bhattacharya",
-      memberDesignation: "Cultural Head",
-      memberSocial: {
-        linkedin: "",
-        twitter: "",
-        insta: "",
-        facebook: "",
-      },
-    },
+    
     
     {
       memberImage: "/images/profilepics/shubhadeepsaha.jpg",
