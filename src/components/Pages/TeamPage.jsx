@@ -4,7 +4,7 @@ import { pageTitle } from "../../helper";
 import Cta from "../Cta";
 import PageHeading from "../PageHeading";
 import Div from "../Div";
-import SectionHeading from "../SectionHeading";
+import SectionHeading2 from "../SectionHeading/SectionHeading2";
 import Spacing from "../Spacing";
 import Team from "../Team";
 import Team2 from "../Team/Team2";
@@ -390,9 +390,9 @@ export default function TeamPage() {
       />
       <Spacing lg="100" md="80" />
       <Div className="container">
-        <SectionHeading
-          title="Core <br/>Team"
-          subtitle="Our Awesome Core Team Members"
+        <SectionHeading2
+          title="Core Team"
+          subtitle="Our Awesome Team Members"
           variant="cs-style1 text-center"
         />
         <Spacing lg="90" md="45" />
@@ -429,7 +429,7 @@ export default function TeamPage() {
 
       <Spacing lg="100" md="80" />
       <Div className="container">
-        <SectionHeading
+        <SectionHeading2
           title="Our Committee Members"
           subtitle="Meet the other hands that made this event possible"
           variant="cs-style1 text-center"
