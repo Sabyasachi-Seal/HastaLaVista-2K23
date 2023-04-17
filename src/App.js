@@ -39,9 +39,9 @@ function App() {
             path="service/:serviceDetailsId"
             element={<ServiceDetailsPage />}
           />
-          <Route path="portfolio" element={<PortfolioPage />} />
+          <Route path="gallery" element={<PortfolioPage />} />
           <Route
-            path="portfolio/:portfolioDetailsId"
+            path="gallery/:portfolioDetailsId"
             element={<PortfolioDetailsPage />}
           />
           <Route path="blog" element={<BlogPage />} />

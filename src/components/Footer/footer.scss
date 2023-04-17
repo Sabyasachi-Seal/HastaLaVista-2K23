@@ -287,6 +287,11 @@
     margin-top: 0%;
   }
 }
+@media screen and (max-width:1000px){
+  .image{
+    display: none;
+  }
+}
 @media screen and (min-width:1000px){
   .cs-social_btns{
     width: 150%;

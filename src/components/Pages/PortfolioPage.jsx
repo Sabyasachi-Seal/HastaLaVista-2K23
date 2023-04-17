@@ -60,7 +60,7 @@ export default function PortfolioPage() {
     },
     // nb 
     {
-      src: '/images/portfolio(25).jpg',
+      src: '/images/portfolio(25)1.jpg',
       category: 'ui_ux_design',
     },
     {
