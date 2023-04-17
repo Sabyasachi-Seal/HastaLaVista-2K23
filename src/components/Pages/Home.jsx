@@ -27,7 +27,7 @@ export default function Home() {
       links: 'https://instagram.com/hasta_la_vista.cse?igshid=YmMyMTA2M2Y',
     },
     {
-      name: 'Subscribe - YouTube',
+      name: 'YouTube',
       links: 'https://www.youtube.com/@HastaLaVista_cse',
     }
   ];

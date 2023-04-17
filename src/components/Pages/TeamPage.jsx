@@ -243,9 +243,138 @@ export default function TeamPage() {
   ];
   const members = [
     {
-      memberName: "Aishwarya Saha",
-      memberDesignation: "Convenor"
+      memberName: "Biswadeep Mondal",
+      memberDesignation: "Member"
     },
+    {
+      memberName: "Rajdeep Saha",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Aayush Bhardwaj",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Karan Agarwal",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Ekarsi Lodh",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Subhojyoti Mukherjee",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Rishikesh Mondal",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Nirlipta Chattopadhyay",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Raunak Raj",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Soumyata Sarkar",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Aditya Seth",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Sreejita Mukhopadhyay ",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Aaquib Ahmad",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Pritam",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Priyanshu",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Raj De Modak",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Subhadeep Roy",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Aaquib Ahmad",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Karan Agarwal ",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Rishab Kumar Yadav",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Anurag",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Rishikesh Mondal",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Stuti Singh",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Sucheta Sarkar",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Samyak Mishra",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Shrutika Jha",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Asmita Halder",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Manali Sardar",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Sujal Barnawal",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Prinan Sil",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Pritam",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Abhimanyu Kanjilal",
+      memberDesignation: "Member"
+    },
+    {
+      memberName: "Indranil Sahu",
+      memberDesignation: "Member"
+    },
+    
   ];
 
   useEffect(() => {
@@ -320,7 +449,7 @@ export default function TeamPage() {
           ))}
         </Div>
         <Div className="text-center">
-          {teamData.length <= itemShow ? (
+          {members.length <= itemShow ? (
             ''
           ) : (
             <>
