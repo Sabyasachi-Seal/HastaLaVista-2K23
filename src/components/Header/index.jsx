@@ -52,7 +52,7 @@ export default function Header({ variant }) {
                         to="about"
                         onClick={() => setMobileToggle(false)}
                       >
-                        What is Hasta La Vista?
+                        About
                       </NavLink>
                     </li>
                     <li className="menu-item">
@@ -84,7 +84,7 @@ export default function Header({ variant }) {
                     </li>
                     <li className="menu-item">
                       <Link to="/contact" onClick={() => setMobileToggle(false)}>
-                        Contact Us
+                        Contact
                       </Link>
                     </li>
                   </ul>
