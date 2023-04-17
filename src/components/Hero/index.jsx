@@ -37,9 +37,9 @@ export default function Hero({
         </Div>
       </Div>
       <VerticalLinks data={heroSocialLinks} title={socialLinksHeading} />
-      <a href={scrollDownId} className="cs-down_btn">
+      {/* <a href={scrollDownId} className="cs-down_btn">
         .
-      </a>
+      </a> */}
     </Div>
   );
 }
