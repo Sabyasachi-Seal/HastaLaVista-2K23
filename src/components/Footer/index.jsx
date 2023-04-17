@@ -70,9 +70,9 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
               <Div className="col-lg-4 col-sm-6 foot">
                 <Div className="cs-footer_item subs">
                   <Newsletter 
-                    title='Subscribe' 
-                    subtitle='At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit.' 
-                    placeholder='example@gmail.com'
+                    title='Subscribe for updates' 
+                    subtitle='Wondering how to get the latest updates? Subscribe to our newsletter and get the latest updates straight to your inbox.' 
+                    placeholder='Hasta La Vista'
                   />
                 </Div>
               </Div>

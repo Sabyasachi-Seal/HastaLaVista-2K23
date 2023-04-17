@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
+import Newsletter from './Newsletter'
 
 export default function ContactInfoWidget({withIcon, title}) {
   return (
