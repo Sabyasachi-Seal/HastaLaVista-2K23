@@ -13,20 +13,20 @@ export default function AboutPage() {
 
   const funfaceData = [
     {
-      title: 'Students',
-      factNumber: '600',
+      title: "Students",
+      factNumber: "600",
     },
     {
-      title: 'Team Members',
-      factNumber: '50',
+      title: "Team Members",
+      factNumber: "50",
     },
     {
-      title: 'Departments',
-      factNumber: '3',
+      title: "Departments",
+      factNumber: "3",
     },
     {
-      title: 'Event',
-      factNumber: '1',
+      title: "Event",
+      factNumber: "1",
     },
   ];
   useEffect(() => {
@@ -101,7 +101,7 @@ export default function AboutPage() {
         <FunFact
           title="About Team CSE"
           subtitle="Successfully organizing and running a college event requires a dedicated team. Behind the scenes, multiple teams work tirelessly to make sure everything runs smoothly. Our team CSE is no exception. It consists of the following teams.
-          Technical Team, Graphics Team, Cultural Team, PR Team, Sponsorship Team, Finance Team, Decoration Team, Food Management Team, Field Service Team, Photography Team, Event Management Team. All teams come together and work hand in hand to make your event a success."
+          Technical Team, Graphics Team, Cultural Team, PR Team, Sponsorship Team, Finance Team, Decoration Team, Food Management Team, Photography Team, Event Management Team. All teams come together and work hand in hand to make your event a success."
           data={funfaceData}
         />
       </Div>

@@ -60,6 +60,14 @@ export default function Header({ variant }) {
                         Our Team
                       </NavLink>
                     </li>
+                    <li className="menu-item">
+                      <NavLink to="/gallery" onClick={() => setMobileToggle(false)}>
+                        Gallery
+                      </NavLink>
+                    </li>
+                    <li className="menu-item">
+                      <a href="https://lu.ma/event/evt-xNs3p4DfZd56WHG" target="_blank" rel="noreferrer">Register</a>
+                    </li>
                     <li className="menu-item-has-children">
                       <Link to="/" onClick={() => setMobileToggle(false)}>
                         Other Events
@@ -70,12 +78,6 @@ export default function Header({ variant }) {
                             <a href="https://cseunited.com/" onClick={() => setMobileToggle(false)}>
                               CSE United
                             </a>
-                            {/* <Link
-                              to="https://cseunited.com/"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              CSE United
-                            </Link> */}
                           </li>
                         </ul>
                       </DropDown>

@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { Icon } from '@iconify/react';
 import { pageTitle } from "../../helper";
 import Cta from "../Cta";
 import PageHeading from "../PageHeading";
@@ -9,6 +10,7 @@ import Team from "../Team";
 
 export default function TeamPage() {
   pageTitle("Team");
+  const [itemShow, setItemShow] = useState(8);
   const teamData = [
   
     {
@@ -253,7 +255,7 @@ export default function TeamPage() {
         bgSrc="images/team_hero_bg.jpeg"
         pageLinkText="Team"
       />
-      <Spacing lg="145" md="80" />
+      <Spacing lg="100" md="80" />
       <Div className="container">
         <SectionHeading
           title="Meet our awesome core <br/>team members"
@@ -262,7 +264,7 @@ export default function TeamPage() {
         />
         <Spacing lg="90" md="45" />
         <Div className="row">
-          {teamData.map((item, index) => (
+          {teamData.slice(0, itemShow).map((item, index) => (
             <Div key={index} className="col-lg-3 col-sm-6">
               <Team
                 memberImage={item.memberImage}
@@ -273,6 +275,21 @@ export default function TeamPage() {
               <Spacing lg="80" md="30" />
             </Div>
           ))}
+        </Div>
+        <Div className="text-center">
+          {teamData.length <= itemShow ? (
+            ''
+          ) : (
+            <>
+              <span
+                className="cs-text_btn"
+                onClick={() => setItemShow(itemShow + 4)}
+              >
+                <span>More Core Team Memebers</span>
+                <Icon icon="bi:arrow-right" />
+              </span>
+            </>
+          )}
         </Div>
         <Spacing lg="70" md="50" />
         <Div className="container">

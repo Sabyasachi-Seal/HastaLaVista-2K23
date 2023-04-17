@@ -28,7 +28,7 @@ export default function TimelineSlider() {
     ],
     [
       {
-        year: 'Instumentals',
+        year: 'Instrumentals',
         name: 'You can sing to the tune',
       },
       {

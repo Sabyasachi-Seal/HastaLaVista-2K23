@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Card from '../Card';
 import FunFact from '../FunFact';
 import Hero from '../Hero';
 import Div from '../Div';
@@ -9,8 +8,6 @@ import Cta from '../Cta';
 import LogoList from '../LogoList';
 import MovingText from '../MovingText';
 import PortfolioSlider from '../Slider/PortfolioSlider';
-import PostSlider from '../Slider/PostSlider';
-import TestimonialSlider from '../Slider/TestimonialSlider';
 import TeamSlider from '../Slider/TeamSlider';
 import VideoModal from '../VideoModal';
 import TimelineSlider from '../Slider/TimelineSlider';
@@ -29,6 +26,10 @@ export default function Home() {
       name: 'Instagram',
       links: 'https://instagram.com/hasta_la_vista.cse?igshid=YmMyMTA2M2Y',
     },
+    {
+      name: 'Subscribe - YouTube',
+      links: 'https://www.youtube.com/@HastaLaVista_cse',
+    }
   ];
 
   // FunFact Data
@@ -76,12 +77,11 @@ export default function Home() {
           variant="cs-type1"
           title="About Team CSE"
           subtitle="Successfully organizing and running a college event requires a dedicated team. Behind the scenes, multiple teams work tirelessly to make sure everything runs smoothly. Our team CSE is no exception. It consists of the following teams.
-          Technical Team, Graphics Team, Cultural Team, PR Team, Sponsorship Team, Finance Team, Decoration Team, Food Management Team, Field Service Team, Photography Team, Event Management Team. All teams come together and work hand in hand to make your event a success."
+          Technical Team, Graphics Team, Cultural Team, PR Team, Sponsorship Team, Finance Team, Decoration Team, Food Management Team, Photography Team, Event Management Team. All teams come together and work hand in hand to make your event a success."
           data={funfaceData}
         />
       </div>
       {/* End FunFact Section */}
-
       
       <Spacing lg="150" md="80" />
       <MovingText text="Welcome to Hasta La Vista 2K23" />
