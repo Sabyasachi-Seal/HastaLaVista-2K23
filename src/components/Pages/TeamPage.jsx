@@ -153,21 +153,19 @@ export default function TeamPage() {
         facebook: "https://www.facebook.com/Aryakbhattacharya",
       },
     },
-    
-    
-    
     {
-      memberImage: "/images/profilepics/shubhadeepsaha.jpg",
-      memberName: "Shubhadeep Saha",
-      memberDesignation: "Decoration Head",
+      memberImage: "/images/profilepics/parijatsaha.jpg",
+      memberName: "Parijat Saha",
+      memberDesignation: "Sponsor Head",
       memberSocial: {
-        linkedin: "https://www.linkedin.com/in/shubhadeep-saha-a63637200",
+        linkedin: "https://www.linkedin.com/in/parijatsaha",
         twitter: "",
-        insta: "www.instagram.com/suvo.deep.saha",
+        insta: "https://instagram.com/parijatsaha?igshid=ZDdkNTZiNTM=",
         facebook:
-          "https://www.facebook.com/profile.php?id=100014793962203&mibextid=ZbWKwL",
+          "https://www.facebook.com/profile.php?id=100069094217343&mibextid=ZbWKwL",
       },
     },
+    
     {
       memberImage: "/images/profilepics/srimontibanerjee.jpg",
       memberName: "Srimonti Banerjee",
@@ -192,8 +190,18 @@ export default function TeamPage() {
           "https://www.facebook.com/swabarna.banerjee.566?mibextid=ZbWKwL",
       },
     },
-    
-    
+    {
+      memberImage: "/images/profilepics/shubhadeepsaha.jpg",
+      memberName: "Shubhadeep Saha",
+      memberDesignation: "Decoration Head",
+      memberSocial: {
+        linkedin: "https://www.linkedin.com/in/shubhadeep-saha-a63637200",
+        twitter: "",
+        insta: "www.instagram.com/suvo.deep.saha",
+        facebook:
+          "https://www.facebook.com/profile.php?id=100014793962203&mibextid=ZbWKwL",
+      },
+    },
     
     {
       memberImage: "/images/profilepics/sohampatra.jpg",
@@ -230,18 +238,7 @@ export default function TeamPage() {
           "https://www.facebook.com/profile.php?id=100059796821713&mibextid=ZbWKwL",
       },
     },
-    {
-      memberImage: "/images/profilepics/parijatsaha.jpg",
-      memberName: "Parijat Saha",
-      memberDesignation: "Sponsor Head",
-      memberSocial: {
-        linkedin: "https://www.linkedin.com/in/parijatsaha",
-        twitter: "",
-        insta: "https://instagram.com/parijatsaha?igshid=ZDdkNTZiNTM=",
-        facebook:
-          "https://www.facebook.com/profile.php?id=100069094217343&mibextid=ZbWKwL",
-      },
-    },
+    
     
   ];
   const members = [

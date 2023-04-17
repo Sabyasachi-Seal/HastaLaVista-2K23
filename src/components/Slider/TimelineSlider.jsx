@@ -9,7 +9,7 @@ export default function TimelineSlider() {
     [
       {
         year: 'Music',
-        name: 'Feel the Rhythm',
+        name: 'Feel The Rhythm',
       },
       {
         year: 'Dancing',
@@ -23,17 +23,17 @@ export default function TimelineSlider() {
       },
       {
         year: 'Food',
-        name: 'Forget Dieting and Eat',
+        name: 'Forget Dieting And Eat',
       },
     ],
     [
       {
         year: 'Instrumentals',
-        name: 'You can sing to the tune',
+        name: 'You Can Sing To The Tune',
       },
       {
         year: 'Pictures',
-        name: 'We won`t let you forget us',
+        name: 'We Won`t Let You Forget Us',
       },
     ]
   ];

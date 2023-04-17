@@ -9,7 +9,7 @@ export default function PortfolioSlider() {
       title:'Click to see more',
       subtitle:'Gallery',
       href:'/gallery',
-      src:'/images/portfolio(2).jpg'
+      src:'/images/portfolio(15).jpg'
     },
     {
       title:'Click to see more',
