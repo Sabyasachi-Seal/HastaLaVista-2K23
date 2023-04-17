@@ -136,7 +136,7 @@ export default function TeamSlider() {
     },
 
     {
-      memberImage: "/images/profilepics/soumilibhattacharya.jpeg",
+      memberImage: "/images/profilepics/soumilibhattacharya.jpg",
       memberName: "Soumili Bhattacharya",
       memberDesignation: "Cultural Head",
       memberSocial: {
@@ -284,22 +284,25 @@ export default function TeamSlider() {
         breakpoint: 1200,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 3,
         },
       },
       {
         breakpoint: 991,
         settings: {
           slidesToShow: 2,
-          dots: true,
-          arrows: false,
+          slidesToScroll: 2,
+          dots: false,
+          arrows: true,
         },
       },
       {
         breakpoint: 500,
         settings: {
           slidesToShow: 1,
-          dots: true,
-          arrows: false,
+          slidesToScroll: 1,
+          dots: false,
+          arrows: true,
         },
       },
     ],
