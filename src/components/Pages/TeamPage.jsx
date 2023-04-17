@@ -7,6 +7,7 @@ import Div from "../Div";
 import SectionHeading from "../SectionHeading";
 import Spacing from "../Spacing";
 import Team from "../Team";
+import Team2 from "../Team/Team2";
 
 export default function TeamPage() {
   pageTitle("Team");
@@ -240,6 +241,12 @@ export default function TeamPage() {
     
     
   ];
+  const members = [
+    {
+      memberName: "Aishwarya Saha",
+      memberDesignation: "Convenor"
+    },
+  ];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -255,8 +262,8 @@ export default function TeamPage() {
       <Spacing lg="100" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Meet our awesome core <br/>team members"
-          subtitle="Our Team"
+          title="Core <br/>Team"
+          subtitle="Our Awesome Core Team Members"
           variant="cs-style1 text-center"
         />
         <Spacing lg="90" md="45" />
@@ -282,12 +289,53 @@ export default function TeamPage() {
                 className="cs-text_btn"
                 onClick={() => setItemShow(itemShow + 4)}
               >
-                <span>More Core Team Memebers</span>
+                <span>More Core Team Members</span>
                 <Icon icon="bi:arrow-right" />
               </span>
             </>
           )}
         </Div>
+      </Div>
+
+
+      <Spacing lg="100" md="80" />
+      <Div className="container">
+        <SectionHeading
+          title="Our Committee Members"
+          subtitle="Meet the other hands that made this event possible"
+          variant="cs-style1 text-center"
+        />
+        <Spacing lg="90" md="45" />
+        <Div className="row">
+          {members.slice(0, itemShow).map((item, index) => (
+            <Div key={index} className="col-lg-3 col-sm-6">
+              <Team2
+                memberImage={item.memberImage}
+                memberName={item.memberName}
+                memberDesignation="Member"
+                memberSocial={item.memberSocial}
+              />
+              <Spacing lg="80" md="30" />
+            </Div>
+          ))}
+        </Div>
+        <Div className="text-center">
+          {teamData.length <= itemShow ? (
+            ''
+          ) : (
+            <>
+              <span
+                className="cs-text_btn"
+                onClick={() => setItemShow(itemShow + 4)}
+              >
+                <span>More Committee Members</span>
+                <Icon icon="bi:arrow-right" />
+              </span>
+            </>
+          )}
+        </Div>
+
+
         <Spacing lg="70" md="50" />
         <Div className="container">
           <Cta
