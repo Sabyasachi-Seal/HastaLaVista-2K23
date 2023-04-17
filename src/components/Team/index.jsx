@@ -15,7 +15,6 @@ export default function Team({memberImage, memberName, memberDesignation, member
           <Div className="outer">
           <h2 className="cs-member_name"><Link to="/team">{memberName}</Link></h2>
           <Div className="cs-member_designation">{memberDesignation}</Div>
-
           </Div>
         </Div>
         <Div className="cs-member_social cs-primary_color">
