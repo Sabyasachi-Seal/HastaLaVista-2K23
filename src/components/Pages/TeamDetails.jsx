@@ -5,6 +5,7 @@ import PageHeading from '../PageHeading'
 import Div from '../Div'
 import Spacing from '../Spacing'
 import SocialWidget from '../Widget/SocialWidget'
+import teamDetailscss from './teamDetailsscss.scss'
 
 export default function TeamDetails() {
   pageTitle('Team Member');
@@ -18,15 +19,26 @@ export default function TeamDetails() {
         bgSrc='/images/team_hero_bg.jpeg'
         pageLinkText='Team Details'
       />
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='100' md='60'/>
       <Div className="container">
         <Div className="row align-items-center">
-          <Div className="col-xl-5 col-lg-6">
+          <Div className="col-xl-5 col-lg-6 teacher">
             <Div className="cs-radius_15 cs-shine_hover_1">
-              <img src="/images/member_details_1.jpeg" alt="Member" className="w-100" />
+              <img src="/images/profilepics/moutushibanerjee.jpg" alt="Member" className="w-100" />
+              <h2 className="cs-section_title title section">Moutushi Banerjee</h2>
+              <Div className="cs-height_10 cs-height_lg_10" />
+              <h3 className="cs-section_subtitle section">Teacher Co-Ordinator</h3>
             </Div>
           </Div>
-          <Div className="col-lg-6 offset-xl-1">
+          <Div className="col-xl-5 col-lg-6 teacher">
+            <Div className="cs-radius_15 cs-shine_hover_1">
+              <img src="/images/profilepics/mkn.jpg" alt="Member" className="w-100" />
+              <h2 className="cs-section_title title section">Mrinal Kanti Nath</h2>
+              <Div className="cs-height_10 cs-height_lg_10" />
+              <h3 className="cs-section_subtitle section">Teacher Co-Ordinator</h3>
+            </Div>
+          </Div>
+          {/* <Div className="col-lg-6 offset-xl-1">
             <Spacing lg='0' md='45'/>
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title">Melon Bulgery</h2>
@@ -41,10 +53,10 @@ export default function TeamDetails() {
               <Div className="cs-height_45 cs-height_lg_30" />
               <SocialWidget/>
             </Div>
-          </Div>
+          </Div> */}
         </Div>
       </Div>
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='100' md='60'/>
       <Div className="container">
         <Cta 
           title='Let’s disscuse make <br />something <i>cool</i> together' 
