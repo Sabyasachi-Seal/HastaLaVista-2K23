@@ -11,7 +11,7 @@ export default function Testimonial({testimonialText, avatarName, avatarDesignat
       </Div>
       <Div className="cs-testimonial_text">{testimonialText}</Div>
       <h2 className="cs-testimonial_avatar_name">{avatarName}</h2>
-      <Div className="cs-testimonial_avatar_designation text-uppercase">{avatarDesignation}</Div>
+      <Div className="cs-testimonial_avatar_designation text-uppercase college">{avatarDesignation}</Div>
     </Div>
   )
 }
