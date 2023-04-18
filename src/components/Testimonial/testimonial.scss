@@ -20,6 +20,7 @@
     margin-top: 24px;
   }
   .cs-testimonial_avatar_name {
+    color: $accent;
     font-size: 22px;
     margin-bottom: 0;
     margin-top: 70px;
@@ -42,6 +43,7 @@
 @media screen and (max-width: 1380px) {
 .cs-testimonial.cs-style1 .cs-testimonial_text,
 .cs-testimonial.cs-style1 .cs-testimonial_avatar_name {
+  color: $accent;
   font-size: 20px;
 }
 }
@@ -51,6 +53,7 @@
     padding-top: 60px;
 }
 .cs-testimonial.cs-style1 .cs-testimonial_avatar_name {
+  color: $accent;
   margin-top: 30px;
 }
 }
