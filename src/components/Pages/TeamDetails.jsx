@@ -59,8 +59,8 @@ export default function TeamDetails() {
       <Spacing lg='100' md='60'/>
       <Div className="container">
         <Cta 
-          title='Let’s disscuse make <br />something <i>cool</i> together' 
-          btnText='Apply For Meeting' 
+          title='Wanna be a part of Hasta La <br />Vista 2K23?' 
+          btnText='Register for Event' 
           btnLink='/contact' 
           bgSrc='/images/cta_bg.jpeg'
         />

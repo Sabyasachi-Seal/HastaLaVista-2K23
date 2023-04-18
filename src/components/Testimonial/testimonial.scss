@@ -14,7 +14,7 @@
     font-size: 22px;
     line-height: 1.5em;
     font-weight: 600;
-    color: $primary;
+    color: white;
   }
   .cs-rating {
     margin-top: 24px;
@@ -41,7 +41,7 @@
   }
 }
 @media screen and (max-width: 1380px) {
-.cs-testimonial.cs-style1 .cs-testimonial_text,
+.cs-testimonial.cs-style1 ,
 .cs-testimonial.cs-style1 .cs-testimonial_avatar_name {
   color: $accent;
   font-size: 20px;
@@ -57,3 +57,5 @@
   margin-top: 30px;
 }
 }
+
+
