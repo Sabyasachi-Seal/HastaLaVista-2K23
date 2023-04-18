@@ -22,7 +22,7 @@ export default function TeamDetails() {
       <Spacing lg='100' md='60'/>
       <Div className="container">
         <Div className="row align-items-center">
-          <Div className="col-xl-5 col-lg-6">
+          <Div className="col-xl-5 col-lg-6 teacher">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <img src="/images/profilepics/moutushibanerjee.jpg" alt="Member" className="w-100" />
               <h2 className="cs-section_title title section">Moutushi Banerjee</h2>
@@ -30,7 +30,7 @@ export default function TeamDetails() {
               <h3 className="cs-section_subtitle section">Teacher Co-Ordinator</h3>
             </Div>
           </Div>
-          <Div className="col-xl-5 col-lg-6">
+          <Div className="col-xl-5 col-lg-6 teacher">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <img src="/images/profilepics/mkn.jpg" alt="Member" className="w-100" />
               <h2 className="cs-section_title title section">Mrinal Kanti Nath</h2>
