@@ -67,12 +67,12 @@ export default function Header({ variant }) {
                       <DropDown>
                         <ul>
                           <li>
-                            <Link to="/team" onClick={() => setMobileToggle(false)}>
+                            <Link to="/students" onClick={() => setMobileToggle(false)}>
                             Students
                             </Link>
                           </li>
                           <li>
-                            <Link to="/team/team-details" onClick={() => setMobileToggle(false)}>
+                            <Link to="/teachers" onClick={() => setMobileToggle(false)}>
                             Teachers
                             </Link>
                           </li>
