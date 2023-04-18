@@ -15,28 +15,28 @@ export default function PortfolioPage() {
   const pics = [
     {
       src: '/images/portfolio(4).jpg',
-      category: 'logo_design',
+      category: 'student',
     },
     {
       // src: '/images/portfolio_4.jpeg',
       src: '/images/portfolio(5).jpg',
-      category: 'ui_ux_design',
+      category: 'student',
     },
     {
       src: '/images/portfolio(14).jpg',
-      category: 'web_design',
+      category: 'student',
     },
     {
       src: '/images/portfolio(15).jpg',
-      category: 'mobile_apps',
+      category: 'student',
     },
     {
       src: '/images/portfolio(6).jpg',
-      category: 'ui_ux_design',
+      category: 'student',
     },
     {
       src: '/images/portfolio(26).jpg',
-      category: 'web_design',
+      category: 'trio',
     },
     {
       src: '/images/portfolio(23).jpg',
@@ -44,15 +44,15 @@ export default function PortfolioPage() {
     },
     {
       src: '/images/portfolio(21).jpg',
-      category: 'web_design',
+      category: 'teacher',
     },
     {
       src: '/images/portfolio(28).jpg',
-      category: 'mobile_apps',
+      category: 'teacher',
     },
     {
       src: '/images/portfolio(22).jpg',
-      category: 'ui_ux_design',
+      category: 'trio',
     },
     {
       src: '/images/portfolio(29).jpg',
@@ -69,7 +69,7 @@ export default function PortfolioPage() {
     },
     {
       src: '/images/portfolio(3).jpg',
-      category: 'web_design',
+      category: 'trio',
     },
     {
       src: '/images/portfolio(30).jpg',
@@ -77,7 +77,7 @@ export default function PortfolioPage() {
     },
     {
       src: '/images/portfolio(16).jpg',
-      category: 'ui_ux_design',
+      category: 'teacher',
     },
     {
       src: '/images/portfolio(7).jpg',
@@ -85,25 +85,25 @@ export default function PortfolioPage() {
     },
     {
       src: '/images/portfolio(33).jpg',
-      category: 'ui_ux_design',
+      category: 'logo_design',
     },
     {
       src: '/images/portfolio(32).jpg',
-      category: 'ui_ux_design',
+      category: 'teacher',
     },
   ];
   const categoryMenu = [
     {
       title: 'Teachers',
-      category: 'web_design',
+      category: 'teacher',
     },
     {
       title: 'Students',
-      category: 'ui_ux_design',
+      category: 'student',
     },
     {
-      title: 'Couples',
-      category: 'mobile_apps',
+      title: 'Trio',
+      category: 'trio',
     },
     {
       title: 'Random',
