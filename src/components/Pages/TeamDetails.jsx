@@ -19,7 +19,7 @@ export default function TeamDetails() {
         bgSrc='/images/team_hero_bg.jpeg'
         pageLinkText='Team Details'
       />
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='100' md='60'/>
       <Div className="container">
         <Div className="row align-items-center">
           <Div className="col-xl-5 col-lg-6">
@@ -56,7 +56,7 @@ export default function TeamDetails() {
           </Div> */}
         </Div>
       </Div>
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='100' md='60'/>
       <Div className="container">
         <Cta 
           title='Let’s disscuse make <br />something <i>cool</i> together' 
