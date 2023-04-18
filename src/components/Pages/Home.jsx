@@ -11,6 +11,7 @@ import PortfolioSlider from '../Slider/PortfolioSlider';
 import TeamSlider from '../Slider/TeamSlider';
 import VideoModal from '../VideoModal';
 import TimelineSlider from '../Slider/TimelineSlider';
+import TestimonialSlider from '../Slider/TestimonialSlider';
 import { pageTitle } from '../../helper';
 
 export default function Home() {
@@ -213,11 +214,12 @@ export default function Home() {
         <Spacing lg="85" md="45" />
         <TeamSlider />
       </Div>
-      {/* <Spacing lg="150" md="80" /> */}
+      
+      <Spacing lg="150" md="80" />
       {/* End Team Section */}
 
       {/* Start Testimonial Section */}
-      {/* <TestimonialSlider /> */}
+      <TestimonialSlider />
       {/* End Testimonial Section */}
 
       {/* Start Blog Section */}

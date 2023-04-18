@@ -7,38 +7,101 @@ import Spacing from '../Spacing';
 export default function TestimonialSlider() {
   const [nav1, setNav1] = useState();
   const [nav2, setNav2] = useState();
+  
   const testimonialData = [
     {
       testimonialThumb: '/images/testimonial_1.jpeg',
-      testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+      testimonialText: 'Now that you are on the verge of the next chapter of your lives, I wish that you  become the best version of yourselves, achieve all that you deserve and make us proud. Godspeed !!!!',
+        
+      avatarName: 'Nairanjana Chowdhury',
+      avatarDesignation: 'Techno Main Salt Lake',
       ratings: '4',
     },
     {
-      testimonialThumb: '/images/testimonial_2.jpeg',
-      testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '5',
-    },
-    {
-      testimonialThumb: '/images/testimonial_3.jpeg',
-      testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '4.5',
-    },
-    {
       testimonialThumb: '/images/testimonial_1.jpeg',
-      testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '3.5',
+      testimonialText: 'Dear students, Fly higher and higher and higher .... No good byes ... just FAIR WELL ... loads of love ... PD Ma`m',
+        
+      avatarName: 'Prof. Poulami Dutta',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },
+    {
+      testimonialThumb: '/images/profilepics/moutushibaneerjee.jpg',
+      testimonialText: '           KYU TU ITNA SOCHTA HAI...DUNIYA YAAD RAKHTA HAI USE          JO HAMESHA LAUT KE ATA HAI...KHULA HAI TERA MANJIL KA RASTA...SAMAT LE APNE AAP KO, AUR           BOL DE, HASTA LA VISTA.....',
+        
+      avatarName: 'Moutushi Banerjee',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/profilepics/mkn.jpg',
+      testimonialText: 'Your academic life may have ended but always remember that learning is a never-ending process. Try to be a good human being and enjoy the journey. My heartfelt good wishes to all of you. ',
+        
+      avatarName: 'Mrinal Kanti Nath',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText: 'Finally that day has come: a day of sorrow, a day of happiness. It`s hard to believe you will be leaving soon. Happy to be a part of your amazing journey in TMSL. Pretty sure you are going to be an asset wherever you go. Wish you the very best, keep in touch. With love: UD.',
+        
+      avatarName: 'Utpal Das',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText: '"Believe in yourself and all that you are. Know that there is something inside you  that     is greater than any obstacle.” I hope that the education that you all have  gained here would help you in your future. May you enjoy life and achieve greater heights in your career. Once again,  all the very best to all of you for your brightest future.',
+        
+      avatarName: 'Manashi De',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText: 'Dear students, you made us successful through your results and achievements. Our journey with you may stop here, but for you, it is the beginning of your life. Be dedicated to your work. We wish you a successful life.',
+        
+      avatarName: 'Ujjal Chakraborty',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText: 'A happy farewell to you. Education does not stop you from making mistakes but it inspires you to take lessons from your mistakes. May you all get success in whatever you do in the future. May you have a shining future ahead. It’s sad to see you leave but it’s good to see you’re all prepared for the next phase of your life. Congratulations on your farewell. Now, shape your career according to your dreams. Best of luck.',
+        
+      avatarName: 'Dr. ARPITA BISWAS',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText: 'As life gives you wings, always remember that no matter what you do and where you go, your well-wishers are always here...looking out for you and wishing that all your dreams come true. All the Best...GOD Bless you.',
+        
+      avatarName: 'Dr. Tapan Chowdhury',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText: 'Best wishes to all for a very bright and prosperous journey ahead, both in life and in your career.',
+        
+      avatarName: 'Dipankar Pal',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText: 'You don’t always get what you wish for; you get what you work for. So, work hard and be successful in your future life.',
+        
+      avatarName: 'Amit Das',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText: 'The end of one journey marks the beginning of another. Hope you succeed in all of your endeavors. My best wishes are always with you.',
+        
+      avatarName: 'Ariruna Dasgupta',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },{
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText: 'Dear students,May you have a successful career ahead. Thank you for all the wonderful moments that you blessed us with. Let your farewell from this institute open newer doors of opportunities for you .The dedication you showed throughout your student life is unimaginable. There is no doubt that this dedication will take you on a new height in life. Happy Farewell!',
+        
+      avatarName: 'Simanti Biswas',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
     },
   ];
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
