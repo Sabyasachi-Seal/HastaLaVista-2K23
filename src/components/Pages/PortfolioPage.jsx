@@ -7,6 +7,7 @@ import Portfolio4 from '../Portfolio/Portfolio4';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
+import './teamDetailsscss.scss';
 
 export default function PortfolioPage() {
   pageTitle('Gallery');
@@ -146,14 +147,14 @@ export default function PortfolioPage() {
         </Div>
         <Spacing lg="90" md="45" />
         <Div className="row">
-          {pics.slice(0, itemShow).map((item, index) => (
+          {pics.slice(0, active==='all'?itemShow:pics.length).map((item, index) => (
             <Div
               className={`${
                 index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
               } ${
                 active === 'all'
                   ? ''
-                  : !(active === item.category)
+                  : active !== item.category
                   ? 'd-none'
                   : ''
               }`}
@@ -171,7 +172,9 @@ export default function PortfolioPage() {
           ))}
         </Div>
 
-        <Div className="text-center">
+        <Div className= {`${
+              active==='all'?'text-center':'hide'
+              }`}>
           {pics.length <= itemShow ? (
             ''
           ) : (
