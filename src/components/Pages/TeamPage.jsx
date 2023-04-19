@@ -10,7 +10,7 @@ import Team from "../Team";
 import Team2 from "../Team/Team2";
 
 export default function TeamPage() {
-  pageTitle("Team");
+  pageTitle("Students");
   const [itemShow, setItemShow] = useState(8);
   const teamData = [
   

@@ -4,20 +4,18 @@ import Cta from '../Cta'
 import PageHeading from '../PageHeading'
 import Div from '../Div'
 import Spacing from '../Spacing'
-import SocialWidget from '../Widget/SocialWidget'
-import teamDetailscss from './teamDetailsscss.scss'
 
 export default function TeamDetails() {
-  pageTitle('Team Member');
+  pageTitle('Teachers');
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
   return (
     <>
       <PageHeading 
-        title='Team Details'
+        title='Teachers'
         bgSrc='/images/team_hero_bg.jpeg'
-        pageLinkText='Team Details'
+        pageLinkText='Teacher Co-Ordinator'
       />
       <Spacing lg='100' md='60'/>
       <Div className="container">
