@@ -19,7 +19,7 @@ export default function TestimonialSlider() {
     },
     {
       testimonialThumb: '/images/profilepics/poulami.jpg',
-      testimonialText: 'Dear students, Fly higher and higher and higher .... No good byes ... just FAIR WELL ... loads of love ... PD Ma`m',
+      testimonialText: 'Dear students, Fly higher and higher and higher .... No good byes ... just FARE WELL ... loads of love ... PD Mam',
         
       avatarName: 'Prof. Poulami Dutta',
       avatarDesignation: 'Techno Main Salt Lake',
