@@ -7,6 +7,7 @@ import SocialWidget from '../Widget/SocialWidget'
 import TextWidget from '../Widget/TextWidget'
 import './footer.scss'
 import Spacing from '../Spacing';
+// import {ReactComponent as Logo} from '../Logos/mainLogoW.svg';
 
 export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
   const copyrightLinks = [
@@ -47,9 +48,10 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             <Div className="seal">
               <Div className="col-lg-3 col-sm-9 foot_image">
                 <Div className="cs-footer_item image">
+                  {/* <Logo/> */}
                   <TextWidget
                     // logoSrc='/images/csefarewellB.png' 
-                    logoSrc='/images/CSEFarewellBlack.svg' 
+                    logoSrc='/images/mainLogoW.svg' 
                     logoAlt='Logo'
                     // text ='Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.'
                   />
