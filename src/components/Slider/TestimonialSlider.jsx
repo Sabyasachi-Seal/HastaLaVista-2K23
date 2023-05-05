@@ -89,13 +89,6 @@ export default function TestimonialSlider() {
       avatarDesignation: 'Techno Main Salt Lake',
       ratings: '4',
     },{
-      testimonialThumb: '/images/profilepics/ariruna.jpg',
-      testimonialText: 'The end of one journey marks the beginning of another. Hope you succeed in all of your endeavors. My best wishes are always with you.',
-        
-      avatarName: 'Ariruna Dasgupta',
-      avatarDesignation: 'Techno Main Salt Lake',
-      ratings: '4',
-    },{
       testimonialThumb: '/images/profilepics/simantibiswas.jpg',
       testimonialText: 'Dear students,May you have a successful career ahead. Thank you for all the wonderful moments that you blessed us with. Let your farewell from this institute open newer doors of opportunities for you .The dedication you showed throughout your student life is unimaginable. There is no doubt that this dedication will take you on a new height in life. Happy Farewell!',
         

@@ -1,55 +1,55 @@
-import React, { useEffect } from 'react';
-import FunFact from '../FunFact';
-import Hero from '../Hero';
-import Div from '../Div';
-import SectionHeading from '../SectionHeading';
-import Spacing from '../Spacing';
-import Cta from '../Cta';
-import LogoList from '../LogoList';
-import MovingText from '../MovingText';
-import PortfolioSlider from '../Slider/PortfolioSlider';
-import TeamSlider from '../Slider/TeamSlider';
-import VideoModal from '../VideoModal';
-import TimelineSlider from '../Slider/TimelineSlider';
-import TestimonialSlider from '../Slider/TestimonialSlider';
-import { pageTitle } from '../../helper';
+import React, { useEffect } from "react";
+import FunFact from "../FunFact";
+import Hero from "../Hero";
+import Div from "../Div";
+import SectionHeading from "../SectionHeading";
+import Spacing from "../Spacing";
+import Cta from "../Cta";
+import LogoList from "../LogoList";
+import MovingText from "../MovingText";
+import PortfolioSlider from "../Slider/PortfolioSlider";
+import TeamSlider from "../Slider/TeamSlider";
+import VideoModal from "../VideoModal";
+import TimelineSlider from "../Slider/TimelineSlider";
+import TestimonialSlider from "../Slider/TestimonialSlider";
+import { pageTitle } from "../../helper";
 
 export default function Home() {
-  pageTitle('Home');
+  pageTitle("Home");
 
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Facebook',
-      links: 'https://www.facebook.com/HastaLaVista.cse.tmsl?mibextid=ZbWKwL',
+      name: "Facebook",
+      links: "https://www.facebook.com/HastaLaVista.cse.tmsl?mibextid=ZbWKwL",
     },
     {
-      name: 'Instagram',
-      links: 'https://instagram.com/hasta_la_vista.cse?igshid=YmMyMTA2M2Y',
+      name: "Instagram",
+      links: "https://instagram.com/hasta_la_vista.cse?igshid=YmMyMTA2M2Y",
     },
     {
-      name: 'YouTube',
-      links: 'https://www.youtube.com/@HastaLaVista_cse',
-    }
+      name: "YouTube",
+      links: "https://www.youtube.com/@HastaLaVista_cse",
+    },
   ];
 
   // FunFact Data
   const funfaceData = [
     {
-      title: 'Students',
-      factNumber: '600',
+      title: "Students",
+      factNumber: "600",
     },
     {
-      title: 'Team Members',
-      factNumber: '50',
+      title: "Team Members",
+      factNumber: "50",
     },
     {
-      title: 'Departments',
-      factNumber: '3',
+      title: "Departments",
+      factNumber: "3",
     },
     {
-      title: 'Event',
-      factNumber: '1',
+      title: "Event",
+      factNumber: "1",
     },
   ];
 
@@ -77,17 +77,16 @@ export default function Home() {
         <FunFact
           variant="cs-type1"
           title="About Team CSE"
-          subtitle="Successfully organizing and running a college event requires a dedicated team. Behind the scenes, multiple teams work tirelessly to make sure everything runs smoothly. Our team CSE is no exception. It consists of the following teams.
-          Technical Team, Graphics Team, Cultural Team, PR Team, Sponsorship Team, Finance Team, Decoration Team, Food Management Team, Photography Team, Event Management Team. All teams come together and work hand in hand to make your event a success."
+          subtitle="A college event requires a dedicated team to be organized and  executed successfully. Behind the scenes of an event, there are several teams working tirelessly to ensure that everything runs smoothly. Our Team CSE is no different as it comprises of multiple teams, which are: the Technical team, the Graphics team, the Cultural team, the PR team, the Sponsorship team, the Finance team, the Decoration team, the Food management team, the External Affairs team, the Photography team and the Event Management team. All the teams come together and join hands to make the event a successful one."
           data={funfaceData}
         />
       </div>
       {/* End FunFact Section */}
-      
+
       <Spacing lg="150" md="80" />
       <MovingText text="Welcome to Hasta La Vista 2K23" />
       <Spacing lg="20" md="10" />
-      
+
       {/* Start Service Section */}
       {/* <Div id="service">
         <Div className="container">
@@ -193,7 +192,8 @@ export default function Home() {
       <Spacing lg="130" md="70" />
       <Div className="container">
         <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Check out our teaser video for Hasta La Vista 2023 below to get a taste of what to expect!
+          Check out our teaser video for Hasta La Vista 2023 below to get a
+          taste of what to expect!
         </h2>
         <Spacing lg="70" md="70" />
         <VideoModal
@@ -214,7 +214,7 @@ export default function Home() {
         <Spacing lg="85" md="45" />
         <TeamSlider />
       </Div>
-      
+
       <Spacing lg="150" md="80" />
       {/* End Team Section */}
 
@@ -262,7 +262,10 @@ export default function Home() {
       {/* End LogoList Section */}
 
       {/* Start CTA Section */}
-      <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
+      <script
+        id="luma-checkout"
+        src="https://embed.lu.ma/checkout-button.js"
+      ></script>
       <Div className="container">
         <Cta
           title="Wanna be a part of Hasta La <br />Vista 2K23?"

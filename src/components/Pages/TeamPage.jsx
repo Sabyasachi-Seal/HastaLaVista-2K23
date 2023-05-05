@@ -283,10 +283,6 @@ export default function TeamPage() {
       memberDesignation: "Member"
     },
     {
-      memberName: "Aditya Seth",
-      memberDesignation: "Member"
-    },
-    {
       memberName: "Sreejita Mukhopadhyay ",
       memberDesignation: "Member"
     },
