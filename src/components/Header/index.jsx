@@ -84,6 +84,11 @@ export default function Header({ variant }) {
                         Gallery
                       </NavLink>
                     </li>
+                    {/* <li className="menu-item">
+                      <NavLink to="/statistics" onClick={() => setMobileToggle(false)}>
+                        Placement Records
+                      </NavLink>
+                    </li> */}
                     <li className="menu-item">
                       <a href="https://lu.ma/event/evt-xNs3p4DfZd56WHG" target="_blank" rel="noreferrer">Register</a>
                     </li>
@@ -101,11 +106,11 @@ export default function Header({ variant }) {
                         </ul>
                       </DropDown>
                     </li>
-                    <li className="menu-item">
+                    {/* <li className="menu-item">
                       <Link to="/contact" onClick={() => setMobileToggle(false)}>
                         Contact
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                   <span
                     className={
