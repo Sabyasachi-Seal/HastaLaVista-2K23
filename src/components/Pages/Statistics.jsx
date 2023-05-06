@@ -173,12 +173,15 @@ export default function Statistics() {
             <Pie className="chartContainer" data={data} />
           </Div>
           <Div className="svgContainer">
-            <svg viewBox="0 0 1920 800">
+            <svg viewBox="0 0 1920 1080">
               <symbol id="s-text">
-                <text text-anchor="middle" x="50%" y="30%">
+                <text text-anchor="middle" x="50%" y="20%">
                   27 LPA
                 </text>
-                <text text-anchor="end" x="100%" y="100%">
+                <text text-anchor="middle" x="50%" y="60%">
+                  Juspay (FTE)
+                </text>
+                <text text-anchor="middle" x="50%" y="100%">
                   Highest Package
                 </text>
               </symbol>
