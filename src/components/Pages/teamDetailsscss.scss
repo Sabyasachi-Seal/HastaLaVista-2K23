@@ -6,11 +6,12 @@
 
 .recordContainer{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50fr 50fr;
+    align-items: center;
 }
 
 .chartContainer{
-    max-width: 5px;
+    width: 90%;
 }
 
 .section{

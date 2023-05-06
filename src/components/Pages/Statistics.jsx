@@ -9,7 +9,7 @@ import Spacing from "../Spacing";
 import Team2 from "../Team/Team2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
-import './svgClasses.css'
+import "./svgClasses.css";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -168,27 +168,31 @@ export default function Statistics() {
           variant="cs-style1 text-center"
         />
         <Spacing lg="90" md="45" />
-        <Div style={{ width: "45%", margin: "2%" }}>
-          <Pie data={data} />
-        </Div>
-        <div>
-          <svg viewBox="0 0 960 300">
-            
-            <symbol id="s-text">
-              <text text-anchor="middle" x="50%" y="80%">
-                24 LPA
-              </text>
-            </symbol>
+        <Div className="recordContainer">
+          <Div className="chartContainer">
+            <Pie className="chartContainer" data={data} />
+          </Div>
+          <Div className="svgContainer">
+            <svg viewBox="0 0 1920 800">
+              <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="30%">
+                  27 LPA
+                </text>
+                <text text-anchor="end" x="100%" y="100%">
+                  Highest Package
+                </text>
+              </symbol>
 
-            <g class="g-ants">
-              <use xlinkHref="#s-text" class="letter"></use>
-              <use xlinkHref="#s-text" class="letter"></use>
-              <use xlinkHref="#s-text" class="letter"></use>
-              <use xlinkHref="#s-text" class="letter"></use>
-              <use xlinkHref="#s-text" class="letter"></use>
-            </g>
-          </svg>
-        </div>
+              <g class="g-ants">
+                <use xlinkHref="#s-text" class="letter"></use>
+                <use xlinkHref="#s-text" class="letter"></use>
+                <use xlinkHref="#s-text" class="letter"></use>
+                <use xlinkHref="#s-text" class="letter"></use>
+                <use xlinkHref="#s-text" class="letter"></use>
+              </g>
+            </svg>
+          </Div>
+        </Div>
       </Div>
 
       <Spacing lg="100" md="80" />
@@ -201,7 +205,7 @@ export default function Statistics() {
         <Spacing lg="90" md="45" />
         <Div className="row">
           {companies.slice(0, itemShow).map((item, index) => (
-            <Div key={index} className="col-lg-3 col-sm-6">
+            <Div key="" className="col-lg-3 col-sm-6">
               <Team2 memberName={item} memberDesignation="2023" />
               <Spacing lg="80" md="30" />
             </Div>
