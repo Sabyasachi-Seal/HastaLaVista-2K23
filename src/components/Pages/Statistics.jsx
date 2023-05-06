@@ -178,10 +178,10 @@ export default function Statistics() {
                 <text text-anchor="middle" x="50%" y="20%">
                   27 LPA
                 </text>
-                <text text-anchor="middle" x="50%" y="60%">
+                <text text-anchor="middle" x="50%" y="58%">
                   Juspay (FTE)
                 </text>
-                <text text-anchor="middle" x="50%" y="100%">
+                <text text-anchor="middle" x="50%" y="95%">
                   Highest Package
                 </text>
               </symbol>
