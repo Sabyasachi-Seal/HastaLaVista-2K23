@@ -173,7 +173,7 @@ export default function Statistics() {
             <Pie className="chartContainer" data={data} />
           </Div>
           <Div className="svgContainer">
-            <svg viewBox="0 0 1920 1080">
+            <svg viewBox="0 0 1920 1080" class="svgSpc">
               <symbol id="s-text">
                 <text text-anchor="middle" x="50%" y="20%">
                   27 LPA

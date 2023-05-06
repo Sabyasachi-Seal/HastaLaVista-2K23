@@ -11,7 +11,7 @@ body {
   font-family: Arial;
 }
 
-svg {
+.svgSpc {
   display: flex;
   font: 15em "Life Savers";
   width: 100%;
