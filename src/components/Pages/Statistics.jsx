@@ -158,7 +158,7 @@ export default function Statistics() {
       <PageHeading
         title="Placement Statistics"
         bgSrc="images/team_hero_bg.jpeg"
-        pageLinkText="Team"
+        pageLinkText="Placements"
       />
       <Spacing lg="100" md="80" />
       <Div className="container">
