@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Life+Savers);
+
+html,
+body {
+  height: 100%;
+  font-weight: 800;
+}
+
+body {
+  background: #000;
+  font-family: Arial;
+}
+
+svg {
+  display: flex;
+  font: 15em "Life Savers";
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+text {
+  letter-spacing: 10px;
+}
+
+.letter {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
+}
+
+.letter:nth-child(1) {
+  stroke: #f39c12;
+  animation-delay: -1;
+}
+
+.letter:nth-child(2) {
+  stroke: #ecf0f1;
+  animation-delay: -2s;
+}
+
+.letter:nth-child(3) {
+  stroke: #3498db;
+  animation-delay: -3s;
+}
+
+.letter:nth-child(4) {
+  stroke: #7f8c8d;
+  animation-delay: -4s;
+}
+
+.letter:nth-child(5) {
+  stroke: #c0392b;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}

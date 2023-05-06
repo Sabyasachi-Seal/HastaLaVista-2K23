@@ -4,6 +4,15 @@
     justify-content: center;
 }
 
+.recordContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.chartContainer{
+    max-width: 5px;
+}
+
 .section{
    display: flex;
    justify-content: center;
