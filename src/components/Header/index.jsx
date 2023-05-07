@@ -85,7 +85,7 @@ export default function Header({ variant }) {
                     </li>
                     <li className="menu-item">
                       <NavLink to="/statistics" onClick={() => setMobileToggle(false)}>
-                        Placement Records
+                        Placements
                       </NavLink>
                     </li>
                     <li className="menu-item">

@@ -170,6 +170,14 @@ export default function TestimonialSlider() {
       avatarName: "Samim Akhtar",
       avatarDesignation: "Techno Main Salt Lake",
       ratings: "4",
+    },
+    {
+      testimonialThumb: "/images/profilepics/labani.jpeg",
+      testimonialText: "Dear students, each of you has the potential to become the leader in your areas of work. I wish you a bright future.",
+
+      avatarName: "Labani",
+      avatarDesignation: "Techno Main Salt Lake",
+      ratings: "4",
     }
   ];
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
