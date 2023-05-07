@@ -96,6 +96,14 @@ export default function TestimonialSlider() {
       avatarDesignation: 'Techno Main Salt Lake',
       ratings: '4',
     },
+    {
+      testimonialThumb: '/images/profilepics/timirsir.jpeg',
+      testimonialText: 'Dear, be prosperous in life but never forget your root. Water your plant of plan that grows up and makes beauty with floration with timely fruits. Thank you.',
+        
+      avatarName: 'Tiir Sir',
+      avatarDesignation: 'Techno Main Salt Lake',
+      ratings: '4',
+    },
   ];
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <div
