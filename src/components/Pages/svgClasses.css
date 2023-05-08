@@ -34,7 +34,7 @@ text {
 }
 
 .letter:nth-child(1) {
-  stroke: #f39c12;
+  stroke: #4285F4;
   animation-delay: -1;
 }
 
@@ -44,17 +44,17 @@ text {
 }
 
 .letter:nth-child(3) {
-  stroke: #3498db;
+  stroke: #0F9D58;
   animation-delay: -3s;
 }
 
 .letter:nth-child(4) {
-  stroke: #7f8c8d;
+  stroke: #F4B400;
   animation-delay: -4s;
 }
 
 .letter:nth-child(5) {
-  stroke: #c0392b;
+  stroke: #DB4437;
   animation-delay: -5s;
 }
 
